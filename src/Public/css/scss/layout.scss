@@ -1,0 +1,83 @@
+
+@import 'font.scss';
+
+:root{
+    --color-primary: #0096ff;
+    --color-secondary: #f2f2f2;
+    --color-gray: #333333;
+}
+
+
+
+body {  
+    color: var(--color-gray);
+    margin: 0;
+    font-family: 'Axiforma';
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+p{
+    padding: 0.5rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+    padding: 0.5rem;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-weight: 300;
+    color: var(--color-gray);
+
+    &:hover{
+        font-weight: 400;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--color-primary);
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--color-gray);
+    box-sizing: border-box;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--color-primary);
+    box-sizing: border-box;
+}
+
+section{
+    padding: 4rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+hr {
+    border: 0;
+    height: 0;
+    background: var(--color-gray);
+    margin: 0;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 .05px var(--color-gray);
+}

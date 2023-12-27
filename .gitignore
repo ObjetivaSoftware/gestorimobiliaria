@@ -1,0 +1,8 @@
+/vendor
+composer.lock
+src/Public/node_modules
+src/Public/package-lock.json
+*/**/*.map
+
+src/Templates/Compiled/
+projeto/*

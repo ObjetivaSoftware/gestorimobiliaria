@@ -1,0 +1,18 @@
+{
+    "name": "objetivasoftware/gestorimobiliaria",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matheus Maydana",
+            "email": "mattmaydana@gmail.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.9",
+        "larapack/dd": "1.*"
+    }
+}

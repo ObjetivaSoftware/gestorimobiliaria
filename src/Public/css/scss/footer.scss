@@ -1,0 +1,75 @@
+footer{
+    width: 100%;
+    max-width: 80vw;
+    margin: 0 auto;
+    
+    & .text-center {
+        text-align: center;
+    }
+
+}
+.sessao_canais{
+    width: 100%;
+    display: flex;
+    max-width: 80vw;
+    margin: 0 auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    & div {
+        margin: 0;
+        flex-basis: 30.333%;
+        flex-grow: 1;
+    }
+}
+
+.sessao_demonstracao{
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "texto imagem";
+    gap: 0px 0px;
+    grid-auto-flow: row;
+
+    $tamanhoSessao: 60vh;
+
+
+    & .texto{
+        grid-area: texto;
+        background-color: var(--color-primary);
+        background: rgb(0,78,255);
+background: -moz-linear-gradient(0deg, rgba(0,78,255,1) 0%, rgba(0,95,255,1) 23%, rgba(0,150,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(0,78,255,1) 0%, rgba(0,95,255,1) 23%, rgba(0,150,255,1) 100%);
+background: linear-gradient(0deg, rgba(0,78,255,1) 0%, rgba(0,95,255,1) 23%, rgba(0,150,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004eff",endColorstr="#0096ff",GradientType=1);
+        padding: 2rem;
+        height: $tamanhoSessao;
+        width: 100%;
+        padding-left: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        & *{
+            color: white;
+        }
+    }
+
+    & .imagem{
+        grid-area: imagem;
+        width: 100%;
+        height: $tamanhoSessao;
+        background-size: cover;
+        background-color: grey;
+        background-position: center;
+        
+        
+
+        background-image: url('/img/home/objetiva_software_demonstracao.jpg');
+    }
+}

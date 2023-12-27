@@ -1,0 +1,333 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  line-height: 0;
+  padding: 0.5rem;
+}
+
+address {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-SemiBold.eot");
+  src: url("/css/font/Axiforma-SemiBold.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-SemiBold.woff2") format("woff2"), url("/css/font/Axiforma-SemiBold.woff") format("woff"), url("/css/font/Axiforma-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-SemiBoldItalic.eot");
+  src: url("/css/font/Axiforma-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-SemiBoldItalic.woff2") format("woff2"), url("/css/font/Axiforma-SemiBoldItalic.woff") format("woff"), url("/css/font/Axiforma-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-HeavyItalic.eot");
+  src: url("/css/font/Axiforma-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-HeavyItalic.woff2") format("woff2"), url("/css/font/Axiforma-HeavyItalic.woff") format("woff"), url("/css/font/Axiforma-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Heavy.eot");
+  src: url("/css/font/Axiforma-Heavy.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Heavy.woff2") format("woff2"), url("/css/font/Axiforma-Heavy.woff") format("woff"), url("/css/font/Axiforma-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-MediumItalic.eot");
+  src: url("/css/font/Axiforma-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-MediumItalic.woff2") format("woff2"), url("/css/font/Axiforma-MediumItalic.woff") format("woff"), url("/css/font/Axiforma-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Medium.eot");
+  src: url("/css/font/Axiforma-Medium.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Medium.woff2") format("woff2"), url("/css/font/Axiforma-Medium.woff") format("woff"), url("/css/font/Axiforma-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-ExtraBold.eot");
+  src: url("/css/font/Axiforma-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-ExtraBold.woff2") format("woff2"), url("/css/font/Axiforma-ExtraBold.woff") format("woff"), url("/css/font/Axiforma-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Thin.eot");
+  src: url("/css/font/Axiforma-Thin.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Thin.woff2") format("woff2"), url("/css/font/Axiforma-Thin.woff") format("woff"), url("/css/font/Axiforma-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Black.eot");
+  src: url("/css/font/Axiforma-Black.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Black.woff2") format("woff2"), url("/css/font/Axiforma-Black.woff") format("woff"), url("/css/font/Axiforma-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Regular.eot");
+  src: url("/css/font/Axiforma-Regular.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Regular.woff2") format("woff2"), url("/css/font/Axiforma-Regular.woff") format("woff"), url("/css/font/Axiforma-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-ThinItalic.eot");
+  src: url("/css/font/Axiforma-ThinItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-ThinItalic.woff2") format("woff2"), url("/css/font/Axiforma-ThinItalic.woff") format("woff"), url("/css/font/Axiforma-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-BlackItalic.eot");
+  src: url("/css/font/Axiforma-BlackItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-BlackItalic.woff2") format("woff2"), url("/css/font/Axiforma-BlackItalic.woff") format("woff"), url("/css/font/Axiforma-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-ExtraBoldItalic.eot");
+  src: url("/css/font/Axiforma-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-ExtraBoldItalic.woff2") format("woff2"), url("/css/font/Axiforma-ExtraBoldItalic.woff") format("woff"), url("/css/font/Axiforma-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-BookItalic.eot");
+  src: url("/css/font/Axiforma-BookItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-BookItalic.woff2") format("woff2"), url("/css/font/Axiforma-BookItalic.woff") format("woff"), url("/css/font/Axiforma-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Light.eot");
+  src: url("/css/font/Axiforma-Light.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Light.woff2") format("woff2"), url("/css/font/Axiforma-Light.woff") format("woff"), url("/css/font/Axiforma-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Italic.eot");
+  src: url("/css/font/Axiforma-Italic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Italic.woff2") format("woff2"), url("/css/font/Axiforma-Italic.woff") format("woff"), url("/css/font/Axiforma-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-LightItalic.eot");
+  src: url("/css/font/Axiforma-LightItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-LightItalic.woff2") format("woff2"), url("/css/font/Axiforma-LightItalic.woff") format("woff"), url("/css/font/Axiforma-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Book.eot");
+  src: url("/css/font/Axiforma-Book.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Book.woff2") format("woff2"), url("/css/font/Axiforma-Book.woff") format("woff"), url("/css/font/Axiforma-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-Bold.eot");
+  src: url("/css/font/Axiforma-Bold.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-Bold.woff2") format("woff2"), url("/css/font/Axiforma-Bold.woff") format("woff"), url("/css/font/Axiforma-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("/css/font/Axiforma-BoldItalic.eot");
+  src: url("/css/font/Axiforma-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/css/font/Axiforma-BoldItalic.woff2") format("woff2"), url("/css/font/Axiforma-BoldItalic.woff") format("woff"), url("/css/font/Axiforma-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+:root {
+  --color-primary: #0096ff;
+  --color-secondary: #f2f2f2;
+  --color-gray: #333333;
+}
+
+body {
+  color: var(--color-gray);
+  margin: 0;
+  font-family: "Axiforma";
+  font-weight: 300;
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  padding: 0.5rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+  color: var(--color-gray);
+}
+a:hover {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem;
+  color: var(--color-primary);
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.5rem;
+  color: var(--color-gray);
+  box-sizing: border-box;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.5rem;
+  color: var(--color-primary);
+  box-sizing: border-box;
+}
+
+section {
+  padding: 4rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  background: var(--color-gray);
+  margin: 0;
+  width: 70%;
+  margin: auto;
+  padding: 0;
+  box-shadow: 0 0 0 0.05px var(--color-gray);
+}
+
+header {
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+}
+
+main {
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+footer .text-center {
+  text-align: center;
+}
+
+.sessao_canais {
+  width: 100%;
+  display: flex;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sessao_canais div {
+  margin: 0;
+  flex-basis: 30.333%;
+  flex-grow: 1;
+}
+
+.sessao_demonstracao {
+  width: 100%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "texto imagem";
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+.sessao_demonstracao .texto {
+  grid-area: texto;
+  background-color: var(--color-primary);
+  background: rgb(0, 78, 255);
+  background: -moz-linear-gradient(0deg, rgb(0, 78, 255) 0%, rgb(0, 95, 255) 23%, rgb(0, 150, 255) 100%);
+  background: -webkit-linear-gradient(0deg, rgb(0, 78, 255) 0%, rgb(0, 95, 255) 23%, rgb(0, 150, 255) 100%);
+  background: linear-gradient(0deg, rgb(0, 78, 255) 0%, rgb(0, 95, 255) 23%, rgb(0, 150, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004eff",endColorstr="#0096ff",GradientType=1);
+  padding: 2rem;
+  height: 60vh;
+  width: 100%;
+  padding-left: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.sessao_demonstracao .texto * {
+  color: white;
+}
+.sessao_demonstracao .imagem {
+  grid-area: imagem;
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-color: grey;
+  background-position: center;
+  background-image: url("/img/home/objetiva_software_demonstracao.jpg");
+}
+
+/*# sourceMappingURL=site.min.css.map */

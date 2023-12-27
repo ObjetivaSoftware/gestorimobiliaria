@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-SemiBold.eot');
+    src: url('/css/font/Axiforma-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-SemiBold.woff2') format('woff2'),
+        url('/css/font/Axiforma-SemiBold.woff') format('woff'),
+        url('/css/font/Axiforma-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-SemiBoldItalic.eot');
+    src: url('/css/font/Axiforma-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-SemiBoldItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-SemiBoldItalic.woff') format('woff'),
+        url('/css/font/Axiforma-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-HeavyItalic.eot');
+    src: url('/css/font/Axiforma-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-HeavyItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-HeavyItalic.woff') format('woff'),
+        url('/css/font/Axiforma-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Heavy.eot');
+    src: url('/css/font/Axiforma-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Heavy.woff2') format('woff2'),
+        url('/css/font/Axiforma-Heavy.woff') format('woff'),
+        url('/css/font/Axiforma-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-MediumItalic.eot');
+    src: url('/css/font/Axiforma-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-MediumItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-MediumItalic.woff') format('woff'),
+        url('/css/font/Axiforma-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Medium.eot');
+    src: url('/css/font/Axiforma-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Medium.woff2') format('woff2'),
+        url('/css/font/Axiforma-Medium.woff') format('woff'),
+        url('/css/font/Axiforma-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-ExtraBold.eot');
+    src: url('/css/font/Axiforma-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-ExtraBold.woff2') format('woff2'),
+        url('/css/font/Axiforma-ExtraBold.woff') format('woff'),
+        url('/css/font/Axiforma-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Thin.eot');
+    src: url('/css/font/Axiforma-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Thin.woff2') format('woff2'),
+        url('/css/font/Axiforma-Thin.woff') format('woff'),
+        url('/css/font/Axiforma-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Black.eot');
+    src: url('/css/font/Axiforma-Black.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Black.woff2') format('woff2'),
+        url('/css/font/Axiforma-Black.woff') format('woff'),
+        url('/css/font/Axiforma-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Regular.eot');
+    src: url('/css/font/Axiforma-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Regular.woff2') format('woff2'),
+        url('/css/font/Axiforma-Regular.woff') format('woff'),
+        url('/css/font/Axiforma-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-ThinItalic.eot');
+    src: url('/css/font/Axiforma-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-ThinItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-ThinItalic.woff') format('woff'),
+        url('/css/font/Axiforma-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-BlackItalic.eot');
+    src: url('/css/font/Axiforma-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-BlackItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-BlackItalic.woff') format('woff'),
+        url('/css/font/Axiforma-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-ExtraBoldItalic.eot');
+    src: url('/css/font/Axiforma-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-ExtraBoldItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-ExtraBoldItalic.woff') format('woff'),
+        url('/css/font/Axiforma-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-BookItalic.eot');
+    src: url('/css/font/Axiforma-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-BookItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-BookItalic.woff') format('woff'),
+        url('/css/font/Axiforma-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Light.eot');
+    src: url('/css/font/Axiforma-Light.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Light.woff2') format('woff2'),
+        url('/css/font/Axiforma-Light.woff') format('woff'),
+        url('/css/font/Axiforma-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Italic.eot');
+    src: url('/css/font/Axiforma-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Italic.woff2') format('woff2'),
+        url('/css/font/Axiforma-Italic.woff') format('woff'),
+        url('/css/font/Axiforma-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-LightItalic.eot');
+    src: url('/css/font/Axiforma-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-LightItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-LightItalic.woff') format('woff'),
+        url('/css/font/Axiforma-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Book.eot');
+    src: url('/css/font/Axiforma-Book.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Book.woff2') format('woff2'),
+        url('/css/font/Axiforma-Book.woff') format('woff'),
+        url('/css/font/Axiforma-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-Bold.eot');
+    src: url('/css/font/Axiforma-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-Bold.woff2') format('woff2'),
+        url('/css/font/Axiforma-Bold.woff') format('woff'),
+        url('/css/font/Axiforma-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    src: url('/css/font/Axiforma-BoldItalic.eot');
+    src: url('/css/font/Axiforma-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Axiforma-BoldItalic.woff2') format('woff2'),
+        url('/css/font/Axiforma-BoldItalic.woff') format('woff'),
+        url('/css/font/Axiforma-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
