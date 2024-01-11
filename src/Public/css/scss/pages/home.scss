@@ -1,0 +1,194 @@
+.sessao_home1{
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "texto imagem";
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    min-height: 490px;
+
+    $tamanhoSessao: 50vh;
+
+    & .texto{
+        grid-area: texto;
+        background-color: var(--color-primary);
+        padding: 2rem;
+        height: $tamanhoSessao;
+        width: 100%;
+        padding-left: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        & *{
+            color: white;
+        }
+    }
+
+    & .imagem{
+        grid-area: imagem;
+        width: 100%;
+        height: $tamanhoSessao;
+        background-size: cover;
+        background-color: grey;
+        background-position: center right 15%;
+
+        background-image: url('/img/home/objetiva-software-ti-oritizando-gestor-rentabilidade-imobiliario.jpeg');
+    }
+}
+
+.sessao_home2{
+    max-width: 80vw;
+
+        margin: 0 auto;
+    & .flex{
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+
+.sessao_home3{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1.3fr .8fr .8fr .8fr;
+    height: 70vh;
+    background-color: var(--color-primary);
+    background: rgb(0,78,255);
+    background: -moz-linear-gradient(0deg, rgba(0,78,255,1) 0%, rgba(0,95,255,1) 23%, rgba(0,150,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,78,255,1) 0%, rgba(0,95,255,1) 23%, rgba(0,150,255,1) 100%);
+    background: linear-gradient(0deg, rgba(0,78,255,1) 0%, rgba(0,95,255,1) 23%, rgba(0,150,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004eff",endColorstr="#0096ff",GradientType=1);
+
+    * {
+        color: white;
+    }
+
+    & .item-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        height: 100%;
+    }
+
+    & .item-texto1{
+        margin-left: 33%;
+    }
+
+    & .item{
+        background-color: rgb(88, 88, 88);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    & .item1{
+        background-image: url('/img/home/vamos-inovar-juntos-locacao.jpeg');
+    }
+
+    & .item2{
+        background-position: center left 30%;
+        background-image: url('/img/home/vamos-inovar-juntos-corretor-imoveis.jpg');
+    }
+}
+
+.sessao_home4{
+    width: 100%;
+    display: flex;
+    max-width: 80vw;
+    margin: 0 auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    & .box{
+        background-color: #f2f2f2;
+        border-radius: 7px;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+
+    & img {
+        display: block;
+    }
+}
+
+.sessao_home5{
+    width: 100%;
+    display: flex;
+    max-width: 80vw;
+    margin: 0 auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    & h2 {
+        text-align: center;
+    }
+}
+
+.sessao_home6{
+
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    height: 40vh;
+    background-color: var(--color-primary);
+
+    * {
+        color: white;
+    }
+
+    & .item-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        height: 100%;
+    }
+
+    & .item-texto1{
+        margin-left: 33%;
+    }
+
+    & .item{
+        background-color: rgb(88, 88, 88);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    & .item1{
+        background-image: url('/img/home/site+crm+adm-de-imoveis.jpg');
+    }
+
+    & .item2{
+        background-position: center;
+        background-size: 30%;
+        background-color: var(--color-primary);
+        background-image: url('/img/home/sistema-condominios.png');
+    }
+
+    & .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        padding: 2rem 0;
+        background-color: rgb(0,0,0,0.5);
+        border: 0;
+    }
+}

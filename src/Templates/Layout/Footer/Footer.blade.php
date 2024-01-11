@@ -40,7 +40,7 @@
             <h2>Blog</h2>
             <nav>
                 <ul>
-                    <a href="#"><li>Novidades</li></a>
+                    <a href="{{$link_blog}}" target="_blank"><li>Novidades</li></a>
                 </ul>
             </nav>
             <img src="/img/d4s.png" height="104px" width="260px" alt="Selo de Empresa Sustentável Assinatura Eletrônica - D4Sign">

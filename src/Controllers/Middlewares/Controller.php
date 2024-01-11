@@ -31,6 +31,7 @@ abstract class Controller
             'dominio' => $_SERVER['HTTP_HOST'] ?? '',
             'title' => 'Documento sem título',
             'description' => 'Descrição do documento',
+            'link_blog' => 'https://blog.gestorimobiliaria.com.br/'
         ];
     }
 

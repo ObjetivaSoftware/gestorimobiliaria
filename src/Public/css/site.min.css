@@ -13,6 +13,16 @@ address {
   text-align: center;
 }
 
+blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-left: 5px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
 @font-face {
   font-family: "Axiforma";
   src: url("/css/font/Axiforma-SemiBold.eot");
@@ -183,7 +193,7 @@ body {
   color: var(--color-gray);
   margin: 0;
   font-family: "Axiforma";
-  font-weight: 300;
+  font-weight: 400;
   background-color: rgb(255, 255, 255);
 }
 
@@ -191,6 +201,8 @@ p {
   padding: 0.5rem;
   margin: 0;
   box-sizing: border-box;
+  display: block;
+  width: 100%;
 }
 
 a {
@@ -205,13 +217,32 @@ a:hover {
   font-weight: 400;
 }
 
+b {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0.5rem;
+  color: var(--color-primary);
+  box-sizing: border-box;
+}
+
 h2 {
   font-size: 2rem;
+  line-height: 2.5rem;
   font-weight: bold;
   margin: 0;
   padding: 0.5rem;
   color: var(--color-primary);
   box-sizing: border-box;
+  width: 100%;
+  display: block;
 }
 
 h3 {
@@ -220,6 +251,8 @@ h3 {
   margin: 0;
   padding: 0.5rem;
   color: var(--color-gray);
+  width: 100%;
+  display: block;
   box-sizing: border-box;
 }
 
@@ -230,6 +263,8 @@ h4 {
   padding: 0.5rem;
   color: var(--color-primary);
   box-sizing: border-box;
+  width: 100%;
+  display: block;
 }
 
 section {
@@ -252,7 +287,6 @@ hr {
 header {
   background-color: white;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-  padding: 1rem;
 }
 header div {
   display: flex;
@@ -328,6 +362,177 @@ footer .text-center {
   background-color: grey;
   background-position: center;
   background-image: url("/img/home/objetiva_software_demonstracao.jpg");
+}
+
+.sessao_home1 {
+  width: 100%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "texto imagem";
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  min-height: 490px;
+}
+.sessao_home1 .texto {
+  grid-area: texto;
+  background-color: var(--color-primary);
+  padding: 2rem;
+  height: 50vh;
+  width: 100%;
+  padding-left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.sessao_home1 .texto * {
+  color: white;
+}
+.sessao_home1 .imagem {
+  grid-area: imagem;
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-color: grey;
+  background-position: center right 15%;
+  background-image: url("/img/home/objetiva-software-ti-oritizando-gestor-rentabilidade-imobiliario.jpeg");
+}
+
+.sessao_home2 {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.sessao_home2 .flex {
+  display: flex;
+  margin: 0 auto;
+}
+
+.sessao_home3 {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.3fr 0.8fr 0.8fr 0.8fr;
+  height: 70vh;
+  background-color: var(--color-primary);
+  background: rgb(0, 78, 255);
+  background: -moz-linear-gradient(0deg, rgb(0, 78, 255) 0%, rgb(0, 95, 255) 23%, rgb(0, 150, 255) 100%);
+  background: -webkit-linear-gradient(0deg, rgb(0, 78, 255) 0%, rgb(0, 95, 255) 23%, rgb(0, 150, 255) 100%);
+  background: linear-gradient(0deg, rgb(0, 78, 255) 0%, rgb(0, 95, 255) 23%, rgb(0, 150, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004eff",endColorstr="#0096ff",GradientType=1);
+}
+.sessao_home3 * {
+  color: white;
+}
+.sessao_home3 .item-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 100%;
+}
+.sessao_home3 .item-texto1 {
+  margin-left: 33%;
+}
+.sessao_home3 .item {
+  background-color: rgb(88, 88, 88);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sessao_home3 .item1 {
+  background-image: url("/img/home/vamos-inovar-juntos-locacao.jpeg");
+}
+.sessao_home3 .item2 {
+  background-position: center left 30%;
+  background-image: url("/img/home/vamos-inovar-juntos-corretor-imoveis.jpg");
+}
+
+.sessao_home4 {
+  width: 100%;
+  display: flex;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sessao_home4 .box {
+  background-color: #f2f2f2;
+  border-radius: 7px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.sessao_home4 img {
+  display: block;
+}
+
+.sessao_home5 {
+  width: 100%;
+  display: flex;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sessao_home5 h2 {
+  text-align: center;
+}
+
+.sessao_home6 {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  height: 40vh;
+  background-color: var(--color-primary);
+}
+.sessao_home6 * {
+  color: white;
+}
+.sessao_home6 .item-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 100%;
+}
+.sessao_home6 .item-texto1 {
+  margin-left: 33%;
+}
+.sessao_home6 .item {
+  background-color: rgb(88, 88, 88);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sessao_home6 .item1 {
+  background-image: url("/img/home/site+crm+adm-de-imoveis.jpg");
+}
+.sessao_home6 .item2 {
+  background-position: center;
+  background-size: 30%;
+  background-color: var(--color-primary);
+  background-image: url("/img/home/sistema-condominios.png");
+}
+.sessao_home6 .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
 }
 
 /*# sourceMappingURL=site.min.css.map */

@@ -11,3 +11,12 @@ li{
 address{
     text-align: center;
 }
+blockquote{
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-left: 5px solid var(--color-primary);
+    color: var(--color-primary);
+}

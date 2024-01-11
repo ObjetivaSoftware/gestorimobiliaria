@@ -13,16 +13,17 @@ body {
     color: var(--color-gray);
     margin: 0;
     font-family: 'Axiforma';
-    font-weight: 300;
+    font-weight: 400;
     background-color: rgb(255, 255, 255);
 }
-
 
 
 p{
     padding: 0.5rem;
     margin: 0;
     box-sizing: border-box;
+    display: block;
+    width: 100%;
 }
 
 a {
@@ -40,13 +41,29 @@ a {
     }
 }
 
-h2 {
+b{
+    font-weight: 800;
+}
+h1{
     font-size: 2rem;
+    line-height: 2.5rem;
     font-weight: bold;
+    width: 100%;
+    display: block;
     margin: 0;
     padding: 0.5rem;
     color: var(--color-primary);
     box-sizing: border-box;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--color-primary);
+    box-sizing: border-box;width: 100%;
+    display: block;
 }
 
 h3 {
@@ -55,6 +72,8 @@ h3 {
     margin: 0;
     padding: 0.5rem;
     color: var(--color-gray);
+    width: 100%;
+    display: block;
     box-sizing: border-box;
 }
 h4{
@@ -64,6 +83,8 @@ h4{
     padding: 0.5rem;
     color: var(--color-primary);
     box-sizing: border-box;
+    width: 100%;
+    display: block;
 }
 
 section{
